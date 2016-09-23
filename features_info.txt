@@ -1,4 +1,4 @@
-Note: This data dictionary is a condensced version of the features_info.txt data dictionary found in the raw data source.
+Note: This data dictionary is a condensed version of the features_info.txt data dictionary found in the raw data source.
 
 Feature Selection 
 =================
