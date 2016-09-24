@@ -13,6 +13,9 @@ From the data set in step 4, creates a second, independent tidy data set with th
 The original data set can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+# Method
+The summaries below describe how the raw data is transformed in the script 'data_alter_script.r'
+
 # Process to Create 'Pace_Data' file
 1.  The original data was split into testing and training sets.  The script restores the data to its original full form
 2.  Subject Identifications and Activity Labels are added to the metrics
