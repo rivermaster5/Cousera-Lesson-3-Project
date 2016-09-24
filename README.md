@@ -14,7 +14,7 @@ The original data set can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 # Method
-The summaries below describe how the raw data is transformed in the script 'data_alter_script.r'
+The summaries below describe how the raw data is transformed in the script 'run_analysis.r'
 
 # Process to Create 'Pace_Data' file
 1.  The original data was split into testing and training sets.  The script restores the data to its original full form
