@@ -1,4 +1,4 @@
-Note: This data dictionary is a condensed version of the features_info.txt data dictionary found in the raw data source.
+Note: This data dictionary is a condensed version of the features_info.txt data dictionary found in the raw data source and distinguish the differences between the data and summary dataframes.
 
 Feature Selection 
 =================
@@ -34,3 +34,5 @@ The set of variables that were estimated from these signals are:
 
 mean(): Mean value
 std(): Standard deviation
+
+In pace_summary dataframe, the mean of each variable is taken per subject and activity combination
