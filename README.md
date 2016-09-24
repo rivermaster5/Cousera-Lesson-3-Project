@@ -12,3 +12,11 @@ From the data set in step 4, creates a second, independent tidy data set with th
 
 The original data set can be found here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+
+# Process to Create 'Pace_Data' file
+1.  The original data was split into testing and training sets.  The script restores the data to its original full form
+2.  Subject Identifications and Activity Labels are added to the metrics
+3.  Metrics describing mean and standard deviation of a variable are kept; all other metrics are removed
+
+# Process to Create 'Pace_Summary' file
+1.  The mean of each metric is taken for each subject and activity combination
